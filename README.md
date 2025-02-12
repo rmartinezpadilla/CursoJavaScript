@@ -27,8 +27,9 @@ npm -v # Should print "10.9.2".
 
 # IMPORTANTE - LEER LA GUÍA DE ESTILO DE DE GOOGLE PARA JAVASCRIPT
 
-https://google.github.io/styleguide/jsguide.html
+* https://google.github.io/styleguide/jsguide.html
 
 
 # EJECUTAR UN ARCHIVO JS
-    node (#ruta_del_achivo)
+
+* node (#ruta_del_achivo)

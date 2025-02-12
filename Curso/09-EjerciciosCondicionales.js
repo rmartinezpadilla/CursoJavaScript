@@ -1,8 +1,22 @@
 // if/else/else if/ternaria
 
 // 1. Imprime por consola tu nombre si una variable toma su valor
+let dato = "contenida"
+//let dato = null
+
+if( dato != null){
+    console.log("Rubén")
+}
+
 
 // 2. Imprime por consola un mensaje si el usuario y contraseña concide con unos establecidos
+let usuario = "admins"
+let contrasenna = "123"
+if( usuario == "admin" && contrasenna == "123"){
+    console.log("Bienvenido")
+} else {
+    console.log("Datos errados")
+}
 
 // 3. Verifica si un número es positivo, negativo o cero e imprime un mensaje
 

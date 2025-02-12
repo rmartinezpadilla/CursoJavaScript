@@ -1,7 +1,7 @@
 
 # Curso JAVASCRIPT
 
-Curso JAVASCRIPT desde youtube con mouredev
+## Curso JAVASCRIPT desde youtube con mouredev
 
 Instalación:
 
@@ -23,6 +23,10 @@ nvm current # Should print "v22.14.0".
 npm -v # Should print "10.9.2".
 
 
-LEER LA GUÍA DE ESTILO DE DE GOOGLE PARA JAVASCRIPT
+## LEER LA GUÍA DE ESTILO DE DE GOOGLE PARA JAVASCRIPT
 
 https://google.github.io/styleguide/jsguide.html
+
+
+## EJECUTAR UN ARCHIVO JS
+    node (#ruta_del_achivo)

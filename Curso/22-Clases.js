@@ -102,3 +102,61 @@ console.log(mila.nombre)
 mila.nequi = 3103868309
 
 console.log(mila.nequi)
+
+// Herencia
+
+class Animal {
+
+    constructor(name) {
+        this.name = name
+    }
+
+    sound() {
+        console.log("El animal emite un sonido genérico")
+    }
+
+}
+
+class Dog extends Animal {
+
+    sound() {
+        console.log("Guau!")
+    }
+
+    run() {
+        console.log("El perro corre")
+    }
+
+}
+
+class Fish extends Animal {
+
+    constructor(name, size) {
+        super(name)
+        this.size = size
+    }
+
+    swim() {
+        console.log("El pez nada")
+    }
+
+}
+
+let miPerro = new Dog("test Perro")
+miPerro.run()
+miPerro.sound()
+
+let miPez = new Fish("test pez", 10)
+miPez.swim()
+miPez.sound()
+
+// Métodos estáticos
+
+class MathOperations {
+
+    static sum(a, b) { // declaramos la funcion estatica usando la palabra reservada static para poder usar el metodo sin necesida de instanciar la clase
+        return a + b
+    }
+}
+
+console.log(MathOperations.sum(5, 10)) // puedo acceder al metodo de la clase sin instancar la clase, esto con el uso de la palabra reservada static

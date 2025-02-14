@@ -2,7 +2,7 @@
 
 import { agregar, PI, nombre, Circulo } from "./28-ExportarModulos.js"
 
-import defaultImport from "./28-ExportarModulos.js"
+import importacionPorDefecto from "./28-ExportarModulos.js"
 
 // Funciones
 
@@ -22,7 +22,7 @@ console.log(circulo.perimetro().toFixed(2))
 
 // Importación por defecto
 
-console.log(defaultImport(5, 10))
+console.log(importacionPorDefecto(5, 10))
 
 // let myClass = new defaultImport()
 // myClass.func()

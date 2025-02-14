@@ -33,7 +33,7 @@ export class Circulo {
 
 // Exportación por defecto
 
-export default function substract(a, b) {
+export default function resta(a, b) {
     return a - b
 }
 

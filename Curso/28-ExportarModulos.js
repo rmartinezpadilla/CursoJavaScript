@@ -11,7 +11,7 @@ console.log(agregar(5, 10))
 // Propiedades
 
 export const PI = 3.1416
-export let name = "TestQa"
+export let nombre = "TestQa"
 
 // Clases
 
@@ -25,7 +25,7 @@ export class Circulo {
         return Math.PI * Math.pow(this.radio, 2)
     }
 
-    perimeter() {
+    perimetro() {
         return 2 * Math.PI * this.radio
     }
 

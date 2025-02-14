@@ -9,6 +9,8 @@
 
 1.  https://nodejs.org/en/download
 
+### Pasos:
+
 1. Download and install nvm:
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash
 
